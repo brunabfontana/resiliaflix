@@ -1,4 +1,4 @@
-==ATUALIZAÇÃO DAS IMAGENS==
+# ==ATUALIZAÇÃO DAS IMAGENS==
 <br>
 <br>
 Os filmes foram mantidos;
