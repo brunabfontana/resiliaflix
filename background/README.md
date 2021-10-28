@@ -9,7 +9,7 @@ As imagens alteradas para uma melhor qualidade;
 A imagem de background da página home & usuário e senha foi editada; 
 <br>
 <br>
-Mantive o conceito Netflix, mas para não parecer uma cópia da própria plataforma:
+### Mantive o conceito Netflix, mas para não parecer uma cópia da própria plataforma:
 <br>
 <br>
 • Editei fazendo referência aos filmes que iremos abordar.
