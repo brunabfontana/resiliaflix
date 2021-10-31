@@ -1,7 +1,7 @@
 function pegarId(){
-    const pegarNomeId = location.search.substr(4)//location é local onde está o site no momento.
+    const pegarNomeId = location.search.substr(4)
     $.ajax({
-        "url" : `https://www.omdbapi.com/?apikey=b1d50f7f&i=${pegarNomeId}&plot=full`, //s=${conversao} O s trás todas as informações de todos os filmes existente
+        "url" : `https://www.omdbapi.com/?apikey=b1d50f7f&i=${pegarNomeId}&plot=full`, 
         "success" : function(result){
             let filmes = new Filmes(result);
             filmes.mostrarFilmes()
@@ -19,28 +19,25 @@ $('.botao').click(function(event){
     let resposta = $('.resposta').val().split(" ")
     let conversao = resposta.join(`+`)
     $.ajax({
-        //requesição de todos os filmes de acordo com a pesquisa.
         "url" : `https://www.omdbapi.com/?apikey=708a483d&S=${conversao}`,
         "success" : (req)=>{
             console.log(req)
-            let recebe = req.Search
-             console.log(recebe)
-            //passa por dentro da array de filmes recebida.
-            let contador = 0;
-            if(req.Response == 'False'){
-                $('#posicao-filmes').html('<h1 class="erro">Filme indisponível</h1>')
-                throw new Error ("filme não encontrado")
-            }else
-            for(let i = 0; i < recebe.length; i++){
-        //verifica se o o typo realmente é um filme
-            if(recebe[i].Type == 'movie' || recebe[i].Type == 'series'|| recebe[i].Type == 'documentary'){   
-                contador++
-                let filmes = new Filmes(recebe[i]);
-                filmes.contador = contador
-                
+                let recebe = req.Search
+                console.log(recebe)
+                let contador = 0;
+                if(req.Response == 'False'){
+                    $('#posicao-filmes').html('<h1 class="erro">Filme indisponível</h1>')
+                    throw new Error ("filme não encontrado")
+                }else
+                for(let i = 0; i < recebe.length; i++){
+                    if(recebe[i].Type == 'movie' || recebe[i].Type == 'series'|| recebe[i].Type == 'documentary'){   
+                        contador++
+                        let filmes = new Filmes(recebe[i]);
+                        filmes.contador = contador
+                        
 
-        $.ajax({
-            //requisiçao de todas(FULL) as informações de cada filme.
+            $.ajax({
+
             "url" : `https://www.omdbapi.com/?apikey=708a483d&t=${recebe[i].Title}&plot=full`,
             "success" : (req)=>{
                 filmes.pegaInfo(req.Plot)

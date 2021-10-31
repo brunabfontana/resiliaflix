@@ -19,7 +19,7 @@
 
 .resposta, .botao {
     width:100%;
-    border:1px solid #a096c5;
+    border:1px solid #cc2b2b;
     font-size: 18px;
     padding:12px;
     background-color: transparent;
@@ -42,7 +42,7 @@
   /*lupa*/
   .botao {
     width:20%;
-    background: linear-gradient(to left, #dd6868, #610606);
+    background: linear-gradient(to left, #994848, #610606);
     color:black;
     transition: all 0.3s;
     border-left:0px;
@@ -61,8 +61,8 @@
 
   }
   .container-main {
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 15%;
+    margin-top: 15%;
     }
 
 #posicao-filmes{
@@ -92,6 +92,12 @@
 body {
     background: black;
     color: white;
+}
+
+.logo{
+    float: left;
+    margin-top: -220px;
+	margin-left: -100px;
 }
 
 .header{
@@ -138,61 +144,7 @@ footer {
     top: 110px;
     right: 0px;
     left: 100px;
-    
 }
-
-#resilia, #flix {
-    font-size: 1.5em;
-    letter-spacing: 2px;
-}
-
-#resilia {
-    color: #6709ff;
-    margin-left: 50px;
-    border-bottom: 2px solid #5106c9;
-    border-top: 2px solid #5106c9;
-    border-left: 2px solid #5106c9;
-    padding-left: 5px;
-
-}
-
-#flix {
-    color: #E1E1E6;
-    border-bottom: 2px solid #E1E1E6;
-    border-top: 2px solid #E1E1E6;
-    border-right: 2px solid #E1E1E6;
-    padding-right: 5px;
-}
-
-.entrar {
-    border: 1px solid #5106c9;
-    border-radius: 10px;
-    width: 100px;
-    text-align: center;
-    transition: background .5s;
-    margin-right: 10px;
-}
-
-.entrar:hover {
-    border: 1px solid #E1E1E6;
-    background: #5106c9;
-    color: #b3b3b6; 
-}
-
-.cadastro {
-    background-color: #5106c9;
-    border-radius: 10px;
-    width: 150px;
-    text-align: center;
-    transition: background 1s;
-    margin-right: 10px;
-}
-
-.cadastro:hover {
-    background-color: #40079b;
-    color: #b3b3b6;
-}
-
 
 .fundoPreto{
     background-color: #121214;
@@ -203,5 +155,5 @@ width: 100%;
 }
 
 .erro{
-    color: red;
+    color: rgb(221, 50, 50);
 }
