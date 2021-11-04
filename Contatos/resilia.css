@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: url('fundo.png');
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 20px 48px;
+    grid-gap: 32px;
+}
+
+.titulo {
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 16px 48px;
+    grid-gap: 32px;
+}
+
+#botao {
+    height: 32px;
+    width: 80px;
+    background: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.apresentacao {
+    min-width: 950px;
+    height: 495px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao-titulo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.apresentacao-subtitulo {
+    font-size: 25px;
+}
+
+.form {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    height: 155px;
+}
+
+.form-convite {
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-email {
+    width: 460px;
+    font-size: 16px;
+    padding: 1.4rem 1rem;
+}
+
+#botao-email {
+    padding: 1.2rem;
+    color: white;
+    background: red;
+    border-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 16px 48px;
+    grid-gap: 32px;
+}
+
+#contato {
+    height: 32px;
+    width: 200px;
+    background: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

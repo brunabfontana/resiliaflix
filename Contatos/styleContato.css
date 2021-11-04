@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+}
+
+body.planodefundo {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    font-size: 40px;
+}
+
+#titulo {
+    position: center;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+}
+
+h4 {
+    text-shadow: 1px 2px 2px black;
+    display: block;
+}
+
+.foto {
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+}
+
+a {
+    color: rgb(164, 164, 247);
+    display: block;
+    width: 20%;
+}
+
+.box {
+    display: flex;
+    width: 70%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formatacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    /*background: black;*/
+}
+
+.link {
+    display: flex;
+    width: 300px;
+    height: 50px;
+}
+
+.bi-linkedin {
+    color: rgb(11, 57, 192);
+}
+
+.bi-github {
+    color: seashell;
+}
+
+.card {
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+}
+
+.logo {
+    float: left;
+    margin-top: -100px;
+    margin-left: -10px;
+}
+
+.footer {
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 48px;
+    grid-gap: 32px;
+}
+
+#contato {
+    height: 32px;
+    width: 100px;
+    background: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-weight: bold;
+}
