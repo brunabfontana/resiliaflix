@@ -13,6 +13,7 @@ body{
     
 }
 
+
 .header{
     padding: 20px 50px;
     position: relative;
@@ -145,4 +146,9 @@ body{
     text-decoration: none;
     color: #0071eb;
 
+}
+.rodape{
+    color: #fff;
+    margin-left: 455px;
+    
 }
