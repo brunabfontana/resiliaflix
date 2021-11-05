@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <title>RESILIAFLIX-Login</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    <div class="wapper">
-        <div class="header">
-            <div class="logo">
-                <a href="#"><img src="assets/logo.png" alt="logo"></a>
-            </div>
-        </div>
+    
+    <body>
+        <header class="header">
+            <a href="../index.html"><img class="logo" src="../assets/logo.png" alt="Logo RESILIAFLIX"></a>
+            <nav class="navbar">
+                <a href="../index.html"><button id="botao">Home</button></a>
+                <a href="../html/buscaFilmes.html"><button id="botao">🔍</button></a>
+                <a href="../html/login.html"><button id="botao">Entrar</button></a>
+            </nav>
+        </header>
+    
         <div class="login_body">
             <div class="login_box">
                 <h2>Entrar</h2>
@@ -31,7 +36,7 @@
                     <div class="support">
                         <div class="remember">
                             <span> <input type="checkbox"></span>
-                       <span>Lembrar senha</span>
+                       <a href="../html/recuperação.html"><span>Lembrar senha</span></a>
                         </div>  
                         <div class="need_help">
                             Precisa de ajuda?
@@ -40,11 +45,11 @@
                     </div>
                     <div class="login_footer">
                         <div class="login_facebook">
-                            <span><img src="assets/logo-facebook.png" alt="Facebook"></span>
+                            <span><img src="../assets/logo-facebook.png" alt="Facebook"></span>
                        <span><a href="#">Conectar com Facebook</a></span>
                         </div>
                         <div class="sign_up">
-                            <p>Novo por aqui?<a href="#">Assine agora.</a></p>
+                            <p>Novo por aqui?<a href="../html/cadastro.html">Assine agora.</a></p>
                         </div>
                         <div class="terms">
                             <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a></p>
@@ -54,6 +59,11 @@
             </div>
         </div>
     </div>
+
+    <footer>
+		<a href="../html/contatos.html"><button id="contato">Contato</button></a>
+		<p id="copyright">Copyright © 2021 Resiliaflix Brasil. Todos os direitos reservados.</p>
+	</footer>
     
 </body>
 </html>
