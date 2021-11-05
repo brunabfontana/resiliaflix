@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/recuperação.css">
+    <title>RESILIAFLIX-Recuperação da Senha</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html"><img class="logo" src="../assets/logo.png" alt="Logo RESILIAFLIX"></a>
+        <nav class="navbar">
+            <a href="../index.html"><button id="botao">Home</button></a>
+            <a href="../html/buscaFilmes.html"><button id="botao">🔍</button></a>
+            <button id="botao">Entrar</button>
+        </nav>
+    </header>
+    <main>
+        <form method="post" action="" onSubmit="return ( verifica() )" name="frmEnvia">
+            <p>Digite o seu e-mail para recuperar a sua senha</p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" onblur="checarEmail();"required/>
+            <div class = " but">
+            <input type="submit" id="myBtn" value="Enviar" class="enviar">
+            </div>
+        </form>
+    </main>
+    <footer>
+		<a href="../html/contatos.html"><button id="contato">Contato</button></a>
+		<p id="copyright">Copyright © 2021 Resiliaflix Brasil. Todos os direitos reservados.</p>
+	</footer>
+    <script src="../JavaScript/recuperação.js"></script>
+</body>
+
+</html>

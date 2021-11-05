@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>RESILIAFLIX-Cadastro</title>
+</head>
+
+<body>
+  <header class="header">
+		<a href="../index.html"><img class="logo" src="../assets/logo.png" alt="Logo RESILIAFLIX"></a>
+		<nav class="navbar">
+			<a href="../index.html"><button id="botao">Home</button></a>
+			<a href="../html/buscaFilmes.html"><button id="botao">🔍</button></a>
+			<button id="botao">Entrar</button>
+		</nav>
+	</header>
+
+    <main>
+        <form method="get">
+            <label for="nomecompleto">Nome Completo</label>
+            <input type="text" id="nomecompleto" class="input-padrao" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="input-padrao" required>
+            <div class="mostrar">
+                <input type="checkbox" onclick="show()">Mostrar Senha
+            </div>
+
+            <label for="senha">Confirme a senha</label>
+            <input type="password" id="senha" class="input-padrao" required>
+
+            <label for="rg">Digite o seu RG</label>
+            <input type="number" id="rg" class="input-padrao" required>
+
+            <label for="Cep">CEP</label>
+            <input name="cep" type="text" id="cep" class="input-padrao" onblur="pesquisacep(this.value);" />
+            <label for="rua">Rua </label>
+            <input name="rua" type="text" id="rua" class="input-padrao">
+            <label for="bairro">Bairro</label>
+            <input name="bairro" type="text" id="bairro" class="input-padrao">
+            <label for="cidade">Cidade</label>
+            <input name="cidade" type="text" id="cidade" class="input-padrao">
+            <label for="estado">Estado</label>
+            <input name="uf" type="text" id="uf" class="input-padrao">
+
+            <input type="submit" id="myBtn" value="Enviar formulário" class="enviar">
+        </form>
+    </main>
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>ResiliaFlix</h2>
+          </div>
+          <div class="modal-body">
+            <p>Cadastro feito com sucesso!</p>
+          </div>
+          <div class="modal-footer">
+            <button id="but"><a href="#" id="a">Próximo</a></button>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <a href="../html/contatos.html"><button id="contato">Contato</button></a>
+        <p id="copyright">Copyright © 2021 Resiliaflix Brasil. Todos os direitos reservados.</p>
+      </footer>
+      
+</body>
+<script src="../JavaScript/cadastro.js"></script>
+
+</html>

@@ -1,0 +1,151 @@
+body{
+    background-color: black;
+}
+
+.header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    top: 28px;
+    padding: 0 56px;
+    box-sizing: border-box;
+}
+
+.logo{
+   float: left;
+   margin-top: -120px;
+   margin-left: -50px;
+}
+
+.navbar{
+	 width: 100%;
+	 display: flex;
+	 justify-content: right;
+	 padding: 16px 48px;
+	 grid-gap: 32px;
+}
+
+#botao{
+	 display: inline-block;
+  	 background: red;
+  	 color: white;
+  	 align-self: flex-start;
+  	 padding: 8px 18px;
+  	 text-decoration: none;
+  	 border-radius: 5px;
+  	 cursor: pointer;
+  	 font-weight: bold;
+  	 border-style: none;
+}
+/*Deixar centalizado o form*/
+main {
+    width: 60%;
+    margin: 9.0rem 0 5.0rem 18.0rem;
+    display: flex;
+}
+
+
+form {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    padding: 1.0rem 1.6rem 3.0rem
+}
+
+form p{
+    padding: 1.5rem;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: arial;
+}
+.input-padrao{
+    display: block;
+    margin: 1.0rem 1.0rem 2.0rem 1.3rem;
+    padding: 10px 25px;
+    width: 60%;
+	-moz-appearance:textfield;/*tirar as setas do input number*/
+}
+
+form label {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+}
+
+#myBtn{
+   align-items: center;
+   margin: 1.0rem 1.0rem 0 1.3rem
+}
+
+.enviar{
+    width: 30%;
+    padding: 14px 0;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        width: 80%;
+    }
+    form{
+        flex-direction: column;
+        width: 100%;
+    }
+    main{
+        flex-direction: column;
+        align-items:center;
+        width: 63%;
+        height: 20%;
+        margin:  15.0rem 0 3.0rem 5.0rem;
+    }
+    footer{
+        margin: 0rem 2.0rem 0 0rem;
+    }
+}
+
+
+footer{
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 48px;
+    grid-gap: 32px;
+}
+
+
+#contato{
+    height: 32px;
+    width: 100px;
+    background: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#contato:hover{
+    background: darkred;
+    transition: 5s;
+}
+
+#copyright{
+    margin-top: 1rem;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    
+}
