@@ -2,14 +2,17 @@ body{
     padding:0 ;
     margin: 0;
     font-size: Arial, Helvetica, sans-serif;
-    background-image: url(assets/bg.jpg);
+    background-image: url(../assets/bg.jpg)  ;
+   
 }
-.logo{
-    height:45px ;
-    width: 167px;
-    padding: -10;
-    border: -50;
+.logo img{
+    float: left;
+	margin-left: -45px;
+    margin-top: -110px;
+   
+    
 }
+
 .header{
     padding: 20px 50px;
     position: relative;
@@ -17,7 +20,7 @@ body{
 
 }
 .wrapper{
-    background-image: url(assets/bg.jpg);
+    
     height:100vh ;
     background-image:cover;
     background-repeat: no-repeat;
@@ -31,6 +34,7 @@ body{
     height: 100%;
     position: absolute;
     top:0;
+    bottom:0 ;
     left: 0;
     right: 0;
 }
@@ -39,12 +43,13 @@ body{
     z-index: 90;
     position: relative;
     max-width: 450px;
-    height: 630px;
+    height: 500px;
     margin-left: 50%;
     background: rgba(0,0,0,0.75);
     border-radius:10px ;
     box-sizing: border-box;
     transform: translateX(-50%);
+    margin-top: 65px;
 }
 .login_body h2{
     font-size: 32p;
@@ -52,7 +57,7 @@ body{
     margin-top: 0;
 
 }
-login_body input{
+.login_body input{
     height: 50px;
     width: 100%;
     border-radius: 3px;
@@ -63,12 +68,11 @@ login_body input{
     box-sizing: border-box;
     outline: none;
 
+
 }
 .input_wrap{
     margin-bottom: 25px;
-    border-radius: 3px;
-    font-weight:500 ;
-    font-size: 16px;
+    
    
     
 }
@@ -97,11 +101,13 @@ login_body input{
 .remember{
     display: flex;
     align-items: center;
+   
 
 }
 .remember span{
     margin-right: 10px;
     height: 25px;
+    color: #fff;
 }
 .login_facebook{
     display: flex;
