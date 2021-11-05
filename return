@@ -1,0 +1,200 @@
+[33mcommit 80309183f6c50dba6750529b1b83a05821b886d6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Pamela <layanepamela98@gmail.com>
+Date:   Fri Nov 5 01:51:59 2021 -0300
+
+    cadastro/recuperação
+
+[33mcommit 586a1e99c8945eb934ccbe97f54b05f92f94cc20[m
+Author: Sthefany Silva <sthefany0011@gmail.com>
+Date:   Thu Nov 4 23:23:43 2021 -0300
+
+    Atualização da tela login
+
+[33mcommit 67a60f2171af588692b479454d029cc8ddc20b1f[m
+Author: Taila Lima dos Santos <taila.santos@neon.com.br>
+Date:   Thu Nov 4 18:41:29 2021 -0300
+
+    atualizando pagina de contato
+
+[33mcommit 2c9776f64a7f7f485cf983e6f48142f7a19310de[m
+Author: Taila Lima dos Santos <taila.santos@neon.com.br>
+Date:   Thu Nov 4 18:38:08 2021 -0300
+
+    atualizando pagina
+
+[33mcommit c0719dc6dff3bdf5e65cb3cdf2dbe45dead4234b[m
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Wed Nov 3 18:23:16 2021 -0300
+
+    Atualizando readme, cabeçalho e rodapé da página de pesquisa
+
+[33mcommit d9a68565b2fcb84661108ec6bbef0fc55d3de766[m
+Author: Leonardo Marques S. Cardenas <89480288+deadbot-slim@users.noreply.github.com>
+Date:   Sat Oct 30 23:57:28 2021 -0300
+
+    update
+    
+    Correção no arquivo readme.md
+
+[33mcommit a467e414d078ba422fef3cd1f6ef37a0d3eda968[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Sat Oct 30 23:54:56 2021 -0300
+
+    alterações da página de busca e adição de novas pastas
+
+[33mcommit 668ff08d7b9863f5557e07b526e9e52465cd1398[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Sat Oct 30 21:43:32 2021 -0300
+
+    Página de pesquisa de filmes
+
+[33mcommit c19b4b3f96ded78ee371db73878daefb7bf18ee1[m
+Merge: 45c1fdb 176b6b6
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Sat Oct 30 21:20:40 2021 -0300
+
+    Arrumando alguns detalhes da home e reorganizando pastas
+
+[33mcommit 45c1fdbe185c224b12483605cc343b5c7de81906[m
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Sat Oct 30 20:43:20 2021 -0300
+
+    realizando alguns ajustes na home
+
+[33mcommit 176b6b6b14e93d0c3b146d8b21de344dd3de8f8d[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Thu Oct 28 20:19:35 2021 -0300
+
+    Update README.md
+
+[33mcommit e7b5161e4c7c635f33e36dd957cc87cc0667d0b1[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Thu Oct 28 20:19:16 2021 -0300
+
+    Update README.md
+
+[33mcommit 4e7f911cd7daa8f75f10b854accac22cae605bf7[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Thu Oct 28 20:18:52 2021 -0300
+
+    Update README.md
+
+[33mcommit 31f9c0dbdbffe05e91d0256187da9eaf9a5ee837[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Wed Oct 27 18:11:03 2021 -0300
+
+    Update README.md
+
+[33mcommit c855231be1566db8e7a30e91e4a912ee32eb4b29[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Wed Oct 27 18:10:26 2021 -0300
+
+    Update README.md
+
+[33mcommit 76f24f1743e888b7e239f3dbb45ea9bd5fa2652b[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Wed Oct 27 18:10:09 2021 -0300
+
+    Update README.md
+
+[33mcommit d0ed70bd0735b4e518c166e270cd9fe4391b7dfe[m
+Merge: 26ca9d1 ff84bbc
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Wed Oct 27 17:57:11 2021 -0300
+
+    adicionando a pasta. Git bugado.
+
+[33mcommit 26ca9d1c02837c1f392ef783e240e0f3fde43afe[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Wed Oct 27 17:47:40 2021 -0300
+
+    readicionando a pasta main-page.
+
+[33mcommit ec8d4a2ea8e33b0600052e18679fe3f53e413839[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Wed Oct 27 17:35:23 2021 -0300
+
+    adicionando novamente a main-page.
+
+[33mcommit ff84bbc4335cadd9558a3474634b48e3c82e6c65[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Wed Oct 27 17:34:29 2021 -0300
+
+    delete main-page
+    
+    bugou o commit da main-page, vou repostar ela
+
+[33mcommit ed7fe860cca700615367b1cc56437651e16bfeb4[m
+Author: Leonardo Marques S. Cardenas <89480288+leomscardenas@users.noreply.github.com>
+Date:   Wed Oct 27 17:33:12 2021 -0300
+
+    Delete BG
+    
+    A pasta "background" contém os mesmos arquivos.
+
+[33mcommit 15a4a18bccce5ea90eb30173cb497d105fbb2411[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Wed Oct 27 17:28:24 2021 -0300
+
+    pastas atualizadas, explicações sobre os arquivos no README.md
+
+[33mcommit 8b6de8ebbbf051b7594afcf930c79139f44ae762[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Wed Oct 27 17:18:11 2021 -0300
+
+    transfêrencia dos arquivos arquivos Resiliaflix para home-page feitos pela Bruna Fontana.
+
+[33mcommit 278f2e7a3db935fffae5ce98f3392fd11fd1ce3f[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Wed Oct 27 16:42:02 2021 -0300
+
+    atualização do background e imagens, mais informações no arquivo README.md
+
+[33mcommit 0cf5fc50a7e23e7cc0d7855d39be5295a1fb12e1[m
+Author: Leonardo Marques S. Cardenas <leonardo.mscardenas@gmail.com>
+Date:   Wed Oct 27 11:23:57 2021 -0300
+
+    logo em PNG e PSD, onde o arquivo PSD tem mais algumas versões.
+
+[33mcommit 0f5734c84fd58d404f792d94b5e14dc0a4baaa40[m
+Author: Sthefany Silva <sthefany0011@gmail.com>
+Date:   Tue Oct 26 23:22:00 2021 -0300
+
+    Desenvolvendo pagina de login em HTML e CSS
+
+[33mcommit 37f2d7bc67c9b3eb9b77e2a35e5a8f452c2fc545[m
+Merge: 99e3181 cecf713
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Mon Oct 25 15:51:31 2021 -0300
+
+    Merge branch 'master' of https://github.com/brunabfontana/resiliaflix
+
+[33mcommit 99e318199edda9245864048b6bd86b2f71f8ba02[m
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Mon Oct 25 14:50:47 2021 -0300
+
+    Finalização da Home e criação da página de informações de um filme
+
+[33mcommit cecf713043ff3994c70ec903cc510073c00ae504[m
+Author: PamelaLimaa <75628046+PamelaLimaa@users.noreply.github.com>
+Date:   Mon Oct 25 12:51:01 2021 -0300
+
+    Update readme.md
+
+[33mcommit db7907fe747da219a4a270282e02d08af02e56ba[m
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Sat Oct 23 14:36:38 2021 -0300
+
+    iniciando a home
+
+[33mcommit 491156c91dee1729fc3fcd52c85ac40caf2a2779[m
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Fri Oct 22 18:20:02 2021 -0300
+
+    Adcionando readme
+
+[33mcommit a537ed18ad49ec4c8f4ee448dedc08aee21ef482[m
+Author: bruna <brunafontana1301@gmail.com>
+Date:   Fri Oct 22 18:16:51 2021 -0300
+
+    iniciando projeto resiliaflix
